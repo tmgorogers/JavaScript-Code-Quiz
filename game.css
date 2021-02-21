@@ -1,0 +1,70 @@
+.scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.choice-container{
+    display: flex;
+    margin-left: 2rem;
+    margin-bottom: 0.8rem ;
+    width: 80%;
+    border-radius: 4px;
+    background-color: purple;
+    font-size: 2rem;
+    color: white;
+    min-width: 80 rem;
+    
+}
+
+.question {
+    width: 500px;
+    height: 125px;
+    position:absolute;
+    right:0;
+    top: 0;
+}
+
+#question p{
+    font-size: 3rem;
+    margin-left: 2rem;
+ 
+}
+
+
+.choice-container:hover{
+    cursor: pointer;
+    transform: scale(1.02);}
+   
+.choice-text{    
+    padding: 2rem 2.5rem;
+    color: white;
+    width: 50%;
+
+}
+
+.correct {
+    background: purple;
+
+}
+
+.incorrect {
+    background: lavender;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .choice{
+        min-width: 40rem;
+    }
+}
